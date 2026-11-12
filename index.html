@@ -996,6 +996,20 @@ html,body{background:#F7F1E8;color:#3A2A22;}
   .matrix-app .mx-club{padding:26px 20px 24px;}
   .matrix-app .mx-block{margin-top:54px;}
 }
+
+/*OTZYVY-CSS*/
+.mx-rv{margin-top:62px;}
+.mx-rv-h{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:14px;}
+.mx-rv-h h2{font-family:var(--mx-serif,Georgia,serif);font-weight:500;color:var(--mx-wine,#5E1A1E);margin:0;font-size:clamp(22px,3.4vw,30px);}
+.mx-rv-note{font-size:12px;color:var(--mx-ink2,#7C6B5C);}
+.mx-rv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:16px;}
+.mx-rv-card{margin:0;background:var(--mx-card,#FCF8F1);border:1px solid var(--mx-line,#DCCBAA);border-left:3px solid var(--mx-gold,#C6A15B);padding:18px 20px;display:flex;flex-direction:column;gap:12px;min-width:0;}
+.mx-rv-card blockquote{margin:0;font-size:14px;line-height:1.6;color:var(--mx-ink,#3A2A22);}
+.mx-rv-card figcaption{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--mx-gold-dp,#A8823C);margin-top:auto;}
+.mx-rv-more>summary{cursor:pointer;list-style:none;display:inline-block;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--mx-wine,#5E1A1E);border:1px solid var(--mx-gold,#C6A15B);padding:9px 14px;margin-top:16px;}
+.mx-rv-more>summary::-webkit-details-marker{display:none}
+.mx-rv-more>summary:focus-visible{outline:2px solid var(--mx-gold,#C6A15B);outline-offset:2px}
+.mx-rv-disc{font-size:11.5px;color:var(--mx-ink2,#7C6B5C);margin:14px 0 0;}
 </style>
 </head>
 <body>
@@ -1169,6 +1183,15 @@ html,body{background:#F7F1E8;color:#3A2A22;}
     </section>
 
     <!-- ================= ОБО МНЕ ================= -->
+
+    <!--OTZYVY-->
+    <section class="mx-rv" id="mx-reviews">
+      <div class="mx-rv-h"><h2>Что говорят клиентки</h2><div class="mx-rv-note">Сессии, разборы и клуб</div></div>
+      <div class="mx-rv-grid"><figure class="mx-rv-card"><blockquote>Хочу оставить тебе отзыв после твоей терапии. Работали с темой денег, терапия была мощной, огромное количество блоков сняли и спустя неделю вижу первые плоды. Много энергии забирали кредитки и кредит, несколько месяцев пыталась сделать рефинансирование кредитов, не получалось, а тут в один момент и с выгодным процентом. Стало гораздо внутри спокойнее … Стала увереннее говорить и предлагать свои услуги, не бояться отказываться, перестала обесценивать свои знания и время … Ты потрясающий проводник, очень тонко чувствуешь и ведешь процесс.</blockquote><figcaption>Клиентка, терапия по теме денег</figcaption></figure><figure class="mx-rv-card"><blockquote>После нашей сессии, когда мы работали с моей программой «что смысл что-то иметь если всё равно заберут или придётся делиться», произошло следующее: муж дал денег на празднование дня рождения младшему сыну, почти половину праздника оплатил … И я сама стала без облома говорить: едем, празднуем вместе, давай помогай мне. И муж спокойно помогает. И я смотрю и понимаю, что реально жизнь моя меняется!</blockquote><figcaption>Клиентка, сессия</figcaption></figure><figure class="mx-rv-card"><blockquote>От всей души благодарю вас за разбор годовой матрицы. Но особенно меня восхитила информация по моему личному году. Такой большой объем информации, что на его осознание и принятие мне понадобилось 2 месяца. Невероятно ценно и важно для меня! Вы однозначно занимаетесь своим делом, несёте свет в этот мир.</blockquote><figcaption>Клиентка, разбор годовой матрицы</figcaption></figure></div>
+      <details class="mx-rv-more"><summary>Ещё отзывы</summary><div class="mx-rv-grid"><figure class="mx-rv-card"><blockquote>Благодарю Вас за подкасты о расхламлении. Я состою в клубе довольно известного психолога и проходила там недельный марафон по данной теме. Но ваши 2 аудио по пользе и глубине несопоставимо обширнее. После прослушивания первой части вступила в Ваш клуб.</blockquote><figcaption>Участница клуба</figcaption></figure><figure class="mx-rv-card"><blockquote>Благодарю Вас за Ваш Клуб! Это очень нужное место, как тихая гавань, где ты без надрыва и гонки проживаешь каждую тему! Где есть ответы на твои вопросы, где тебе ответят понятным языком. Это что-то нереальное!</blockquote><figcaption>Участница клуба</figcaption></figure></div></details>
+      <p class="mx-rv-disc">Результаты индивидуальны и не являются гарантией.</p>
+    </section>
+
     <section class="mx-author mx-block" id="mx-me">
       <div class="mx-author-photo" role="img" aria-label="Надежда Кухтина"></div>
       <div class="mx-author-body">
